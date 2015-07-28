@@ -2,7 +2,7 @@
 
 namespace Publisher.Model
 {
-    class Author : IAuthor
+    public class Author : IAuthor
     {
         public string Name { get; set; }
         public string Biography { get; set; }
