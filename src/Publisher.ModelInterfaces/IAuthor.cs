@@ -2,7 +2,7 @@
 {
     public interface IAuthor
     {
-        string Name { get; }
-        string Biography { get; }
+        string Name { get; set; }
+        string Biography { get; set; }
     }
 }

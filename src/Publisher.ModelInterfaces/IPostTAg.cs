@@ -2,6 +2,6 @@
 {
     public interface IPostTag
     {
-        string Name { get; }
+        string Name { get; set; }
     }
 }

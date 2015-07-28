@@ -2,6 +2,6 @@
 {
     public interface IPoem : ILiterature
     {
-        string Metaphor { get; }
+        string Metaphor { get; set; }
     }
 }
