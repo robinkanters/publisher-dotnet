@@ -40,7 +40,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Author.cs" />
+    <Compile Include="Literature.cs" />
+    <Compile Include="Poem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Story.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Publisher.ModelInterfaces\Publisher.ModelInterfaces.csproj">
+      <Project>{24FA42B7-2561-435B-B18A-B6ED90C40F83}</Project>
+      <Name>Publisher.ModelInterfaces</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
