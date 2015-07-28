@@ -42,7 +42,7 @@
   <ItemGroup>
     <Compile Include="IAuthor.cs" />
     <Compile Include="IPoem.cs" />
-    <Compile Include="IPost.cs" />
+    <Compile Include="ILiterature.cs" />
     <Compile Include="IPostTag.cs" />
     <Compile Include="IStory.cs" />
     <Compile Include="ITaggable.cs" />
